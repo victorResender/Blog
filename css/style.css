@@ -1,0 +1,66 @@
+#title , .subtitle, .post_title{
+    color: rgb(65, 65, 65);
+    margin: 0;
+} 
+body{
+    background-color: rgb(242, 245, 247);
+    max-width: 900px;
+    margin: 10px auto;
+    font-family: 'poppins';
+    
+}
+#title{
+    text-transform: uppercase;
+    
+}
+.subtitle{
+    font-weight: 900;
+    
+}
+.post_title{
+    font-size: 16px;
+    font-style: italic;
+    margin: 0;
+    margin-bottom: 15px;
+}
+.post{
+    border: 3px solid #444;
+    background-color: white;
+    padding: 15px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    text-transform: capitalize; 
+    font-weight: 280;
+}
+a{
+    text-decoration: none;
+    color: #444;
+}
+a:hover{
+    color: rgb(0, 0, 0);
+}
+.post_content{
+    
+margin: 0;
+margin-bottom: 15px;  
+
+}
+
+.post_image{
+    margin-bottom: 15px;
+    min-width: 100%;
+}
+
+.header img{
+    border-radius: 50%;
+    border: 3px solid #444;
+    width:100px; 
+    height:100px;
+    
+   
+}
+footer ul{
+    list-style: none;
+    
+    
+}
